@@ -12,7 +12,7 @@ The dataset contain some rows that were empty, so i had to
 <img width="640" height="340" alt="data_cuba" src="https://github.com/user-attachments/assets/2195328e-aa75-4f75-9193-50245eb9d392" />
 
 (4) The final generated excel file is now used to generate a visualization to show the graphical representaion of the final dataset
-<img width="623" height="227" alt="data_final" src="https://github.com/user-attachments/assets/57d529fd-c8d2-40f0-8c20-776d7af49eca" />
+<img width="623" height="227" alt="data_final" src="https://github.com/user-attachments/assets/57d529fd-c8d2-40f0-8c20-776d7af49eca" />           
 (5) Kindly view the graphical representation of the final dataset. Their names can be viewed from the excel file (databeforeplot_row.csv)   
 <img width="572" height="455" alt="visual_cuba" src="https://github.com/user-attachments/assets/a89163c6-93eb-4cbc-80f3-0df3324ae662" />
 

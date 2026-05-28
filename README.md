@@ -8,8 +8,14 @@ The dataset contain some rows that were empty, so i had to
 (2) Cleaned the sorted excel file data by selecting the empty row and filling it with N/A and saved the new file as latest_row.csv
 <img width="578" height="260" alt="data_fill_replace" src="https://github.com/user-attachments/assets/71a91628-7092-4a3c-a9e7-3b6528bdbe08" />
 
-(3) The lastest excel cleaned dataset is filtered by selecting the country (CUBA) where the althlete are giving birth to, to know how many althlete is from CUBA that is above 190 cm in height.
+(3) The lastest excel cleaned dataset is filtered by selecting the country (CUBA) where the althlete are giving birth to, to know how many althlete is from CUBA that is above 190 cm in height and the generted excel file is saved for analysis. 90 althlete met the criteria.
 <img width="640" height="340" alt="data_cuba" src="https://github.com/user-attachments/assets/2195328e-aa75-4f75-9193-50245eb9d392" />
+
+(4) The final generated excel file is now used to generate a visualization to show the graphical representaion of the final dataset
+![Uploading data_final.png…]()
+<img width="572" height="455" alt="visual_cuba" src="https://github.com/user-attachments/assets/3563071b-49b6-4316-a1d1-2c41dc28bdf6" />
+
+
 
 
 

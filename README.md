@@ -12,8 +12,8 @@ The dataset contain some rows that were empty, so i had to
 <img width="640" height="340" alt="data_cuba" src="https://github.com/user-attachments/assets/2195328e-aa75-4f75-9193-50245eb9d392" />
 
 (4) The final generated excel file is now used to generate a visualization to show the graphical representaion of the final dataset
-![Uploading data_final.png…]()
-<img width="572" height="455" alt="visual_cuba" src="https://github.com/user-attachments/assets/3563071b-49b6-4316-a1d1-2c41dc28bdf6" />
+<img width="623" height="227" alt="data_final" src="https://github.com/user-attachments/assets/57d529fd-c8d2-40f0-8c20-776d7af49eca" />
+
 
 
 

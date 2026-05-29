@@ -19,7 +19,21 @@ The dataset contain some rows that were empty, so i had to
 (5) Kindly view the graphical representation of the final dataset. The althletes names can be viewed from the excel file (databeforeplot_row.csv)   
 <img width="572" height="455" alt="visual_cuba" src="https://github.com/user-attachments/assets/a89163c6-93eb-4cbc-80f3-0df3324ae662" />
 
+import pandas as pd
+import numpy as np
 
+# Create a simple DataFrame
+df = pd.DataFrame(
+    [[1, 2, 3], [4, 5, 6], [7, 8, 9], [10, 11, 12]],
+    columns=["A", "B", "C"],
+    index=["x", "y", "z", "zz"]
+)
+
+# Display the first few rows
+df.head()
+
+# Display the last two rows
+df.tail(2)
 
 
 

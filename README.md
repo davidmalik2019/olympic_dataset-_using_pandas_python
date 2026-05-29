@@ -39,14 +39,9 @@ df[['name', 'height_cm']].plot(title="BIRTH LOCATION = CUBA",xlabel='Name', ylab
 ```
       
 (5) Kindly view the graphical representation of the final dataset. The althletes names can be viewed from the excel file (databeforeplot_row.csv)  
-```python
-import pandas as pd
-import matplotlib.pyplot as plt
-import numpy as np
-df = pd.read_csv('./data/databeforeplot_row.csv')
-print(df)
-df[['name', 'height_cm']].plot(title="BIRTH LOCATION = CUBA",xlabel='Name', ylabel='Height_cm')
-```
+<img width="572" height="455" alt="visual_cuba" src="https://github.com/user-attachments/assets/2e5288a0-f7bb-48c2-ad58-5121d1b10e53" />
+
+
 
 
 

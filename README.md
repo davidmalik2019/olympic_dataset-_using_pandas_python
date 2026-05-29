@@ -5,7 +5,17 @@ dataset: https://github.com/KeithGalli/complete-pandas-tutorial/tree/master/data
 Data cleaning and Visualization using pandas in python
 
 The dataset contain some rows that were empty, so i had to           
-(1) Sorted the main dataset by selecting athlete that their hight is above 190cm (Height is advantage in some olympic games) saved the new file as cleaned_row.csv.      
+(1) Sorted the main dataset by selecting athlete that their hight is above 190cm (Height is advantage in some olympic games) saved the new file as cleaned_row.csv.  
+```python
+import pandas as pd
+import matplotlib.pyplot as plt
+import numpy as np
+df = pd.read_csv('./data/bios.csv')
+new=df[df['height_cm'] > 190]
+print(new)
+new.to_csv('cleaned_row.csv', index=False)
+```
+
 <img width="578" height="228" alt="data_sorted" src="https://github.com/user-attachments/assets/f9d5d35e-32c4-4af5-9202-03e22e0ac8f8" />
 
 (2) Cleaned the sorted excel file data by selecting the empty row and filling it with N/A and saved the new file as latest_row.csv

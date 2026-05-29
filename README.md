@@ -25,8 +25,6 @@ df.shape
 new = df.dropna(how='all').fillna('N/A')
 new.to_csv('latest_row.csv', index=False , na_rep='N/A')
 ```
-<img width="578" height="260" alt="data_fill_replace" src="https://github.com/user-attachments/assets/71a91628-7092-4a3c-a9e7-3b6528bdbe08" />
-
 (3) The lastest excel cleaned dataset is filtered by selecting the country (CUBA) where the althlete are giving birth to, to know how many althlete is from CUBA that is above 190 cm in height and the generted excel file is saved for analysis. 90 althletes from CUBA met the criteria.    
 <img width="640" height="340" alt="data_cuba" src="https://github.com/user-attachments/assets/2195328e-aa75-4f75-9193-50245eb9d392" />
 

@@ -16,6 +16,15 @@ print(new)
 new.to_csv('cleaned_row.csv', index=False)
 ```
 (2) Cleaned the sorted excel file data by selecting the empty row and filling it with N/A and saved the new file as latest_row.csv
+```python
+import pandas as pd
+import matplotlib.pyplot as plt
+import numpy as np
+df = pd.read_csv('./data/cleaned_row.csv')
+df.shape
+new = df.dropna(how='all').fillna('N/A')
+new.to_csv('latest_row.csv', index=False , na_rep='N/A')
+```
 <img width="578" height="260" alt="data_fill_replace" src="https://github.com/user-attachments/assets/71a91628-7092-4a3c-a9e7-3b6528bdbe08" />
 
 (3) The lastest excel cleaned dataset is filtered by selecting the country (CUBA) where the althlete are giving birth to, to know how many althlete is from CUBA that is above 190 cm in height and the generted excel file is saved for analysis. 90 althletes from CUBA met the criteria.    

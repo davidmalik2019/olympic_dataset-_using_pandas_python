@@ -15,9 +15,6 @@ new=df[df['height_cm'] > 190]
 print(new)
 new.to_csv('cleaned_row.csv', index=False)
 ```
-
-<img width="578" height="228" alt="data_sorted" src="https://github.com/user-attachments/assets/f9d5d35e-32c4-4af5-9202-03e22e0ac8f8" />
-
 (2) Cleaned the sorted excel file data by selecting the empty row and filling it with N/A and saved the new file as latest_row.csv
 <img width="578" height="260" alt="data_fill_replace" src="https://github.com/user-attachments/assets/71a91628-7092-4a3c-a9e7-3b6528bdbe08" />
 
